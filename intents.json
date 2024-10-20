@@ -1,0 +1,50 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can guide you through Adverse Drug Reaction list, Blood Pressure and Heart Rate tracking, and Drug Information"]
+        },
+        {
+            "tag": "adverse_drug",
+            "patterns": ["How to check Adverse Drug Reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction"],
+            "responses": ["Navigating to Adverse Drug Reaction module"]
+        },
+        {
+            "tag": "blood_pressure",
+            "patterns": ["Open blood pressure module", "Task related to Blood Pressure", "Blood Pressure data entry", "I want to log Blood Pressure results"],
+            "responses": ["Navigating to Blood Pressure module"]
+        },
+        {
+            "tag": "heart_rate",
+            "patterns": ["Open heart rate module", "Task related to Heart Rate", "Heart Rate data entry", "I want to log Heart Rate results"],
+            "responses": ["Navigating to Heart Rate module"]
+        },
+        {
+            "tag": "data_entry",
+            "patterns": ["I want to log Blood Pressure results", "Blood Pressure data entry", "Log Blood Pressure", "Enter my new Blood Pressure data", "I want to log Heart Rate results", "Heart Rate data entry", "Log Heart Rate", "Enter my new Heart Rate data"],
+            "responses": ["Please provide your Name, Blood Pressure Systolic value, Blood Pressure Diastolic value, and Heart Rate"]
+        }
+    ]
+}
